@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt install wget curl make
+sudo apt install wget curl make git
 
 # Downloading Anki
 mkdir Downloads
