@@ -60,7 +60,7 @@ echo "<dead_diaeresis> <Cyrillic_a> : \"я\"" >> ~/.XCompose
 echo "<dead_diaeresis> <Cyrillic_A> : \"Я\"" >> ~/.XCompose
 
 # Matter.py
-sudo apt install inkscape
+sudo apt install inkscape --assume-yes
 cd ~/Documents
 wget https://github.com/mateosss/matter/releases/latest/download/matter.zip
 unzip matter.zip
