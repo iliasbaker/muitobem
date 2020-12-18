@@ -3,5 +3,5 @@ wget -O - https://raw.githubusercontent.com/iliasbaker/muitobem/master/essential
 ```
 Dconf themes:
 ```sh
-wget -O - https://raw.githubusercontent.com/iliasbaker/muitobem/master/dconf-settings.sh | bash
+wget -O - https://raw.githubusercontent.com/iliasbaker/muitobem/master/dconfsettings.sh | bash
 ```
