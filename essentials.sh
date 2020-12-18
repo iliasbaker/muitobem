@@ -27,6 +27,7 @@ sudo apt install gnome-shell-extensions gnome-tweaks dconf-editor
 cd ~/Downloads
 git clone https://github.com/daniruiz/flat-remix-gnome.git
 cd ./flat-remix-gnome
+mkdir ~/.themes
 mv ./Flat-Remix-* ~/.themes
 
 # Python
