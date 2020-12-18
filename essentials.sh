@@ -26,8 +26,11 @@ curl -O https://raw.githubusercontent.com/iliasbaker/dotfiles/main/.vimrc
 sudo apt install gnome-shell-extensions gnome-tweaks dconf-editor
 cd ~/Downloads
 git clone https://github.com/daniruiz/flat-remix-gnome.git
-cd ./flat-remix-gnome
+git clone https://github.com/daniruiz/Flat-Remix-GTK.git
 mkdir ~/.themes
+cd ./flat-remix-gnome
+mv ./Flat-Remix-* ~/.themes
+cd ./Flat-Remix-GTK
 mv ./Flat-Remix-* ~/.themes
 
 # Python
