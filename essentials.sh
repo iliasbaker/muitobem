@@ -4,7 +4,8 @@ sudo apt update
 sudo apt install wget curl make
 
 # Downloading Anki
-cd ~/Descargas
+mkdir Downloads
+cd ~/Downloads
 wget https://github.com/ankitects/anki/releases/download/2.1.35/anki-2.1.35-linux-amd64.tar.bz2
 tar -xf anki-2.1.35-linux-amd64.tar.bz2
 cd ./anki-2.1.35-linux-amd64.tar.bz2
@@ -15,7 +16,7 @@ sudo apt install mpv lame libxcb-xinerama0
 
 # Bash aliases
 cd ~
-curl -O  https://raw.githubusercontent.com/iliasbaker/dotfiles/main/.bash_aliases
+curl -O https://raw.githubusercontent.com/iliasbaker/dotfiles/main/.bash_aliases
 
 # vimrc
 cd ~
