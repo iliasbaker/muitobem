@@ -30,7 +30,7 @@ cd ./flat-remix-gnome
 mv ./Flat-Remix-* ~/.themes
 
 # Python
-sudo apt install python-is-python3
+sudo apt install python-is-python3 vim
 
 # Greek keyboard
 cd ~/Downloads
