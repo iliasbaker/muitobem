@@ -12,6 +12,7 @@ gsettings set org.gnome.shell.extensions.desktop-icons show-home false
 gsettings set org.gnome.shell.extensions.desktop-icons show-trash false
 gsettings set org.gnome.shell.extensions.dash-to-dock force-straight-corner true
 gsettings set org.gnome.shell.extensions.dash-to-dock pressure-threshold 25
+gsettings set org.gnome.desktop.peripherals.touchpad speed 0.34519572953736666
 cd ~/Pictures
 wget "https://unsplash.com/photos/DJmj7op4P-M/download?force=true"
 sudo apt install numix-icon-theme-circle
