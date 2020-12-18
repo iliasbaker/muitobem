@@ -8,7 +8,7 @@ mkdir Downloads
 cd ~/Downloads
 wget https://github.com/ankitects/anki/releases/download/2.1.35/anki-2.1.35-linux-amd64.tar.bz2
 tar -xf anki-2.1.35-linux-amd64.tar.bz2
-cd ./anki-2.1.35-linux-amd64.tar.bz2
+cd ./anki-2.1.35-linux-amd64
 sudo make install
 
 # Anki's dependencies
